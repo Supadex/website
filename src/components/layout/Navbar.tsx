@@ -68,7 +68,7 @@ export const Navbar: React.FC = () => {
 
           {/* GitHub Repo */}
           <a
-            href="https://github.com"
+            href="https://github.com/Supadex"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 rounded-full text-secondary-theme hover:text-primary-theme hover:bg-subtle-theme border border-transparent hover:border-hairline-theme transition-all hidden sm:flex"
@@ -85,7 +85,7 @@ export const Navbar: React.FC = () => {
 
           {/* Launch App Primary CTA (Apple minimal pill) */}
           <a
-            href="http://localhost:5173"
+            href="https://app-supadex.onrender.com"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 rounded-full text-xs sm:text-sm font-medium bg-primary-theme text-accent-primary-text hover:opacity-90 transition-opacity apple-spring-press"

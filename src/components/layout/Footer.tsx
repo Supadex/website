@@ -85,7 +85,7 @@ export const Footer: React.FC = () => {
           <ul className="space-y-2">
             <li>
               <a
-                href="http://localhost:5173"
+                href="https://app-supadex.onrender.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary-theme transition-colors"
@@ -95,7 +95,7 @@ export const Footer: React.FC = () => {
             </li>
             <li>
               <a
-                href="http://localhost:5174"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary-theme transition-colors"
