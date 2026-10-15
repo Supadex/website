@@ -25,6 +25,11 @@ export const Footer: React.FC = () => {
           <h4 className="text-primary-theme font-medium text-xs tracking-wider uppercase">Technology</h4>
           <ul className="space-y-2">
             <li>
+              <Link to="/whitepaper" className="hover:text-primary-theme transition-colors">
+                Whitepaper
+              </Link>
+            </li>
+            <li>
               <Link to="/curves" className="hover:text-primary-theme transition-colors">
                 Concentrated CLAMM
               </Link>

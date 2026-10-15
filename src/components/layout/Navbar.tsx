@@ -12,6 +12,7 @@ export const Navbar: React.FC = () => {
     { label: 'LVR Simulator', to: '/simulator' },
     { label: 'Comparison', to: '/comparison' },
     { label: 'Developers', to: '/developers' },
+    { label: 'Whitepaper', to: '/whitepaper' },
   ];
 
   return (

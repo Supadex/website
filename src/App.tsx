@@ -6,7 +6,8 @@ import {
   CurvesPage, 
   SimulatorPage, 
   ComparisonPage, 
-  DevelopersPage 
+  DevelopersPage,
+  WhitepaperPage
 } from './pages';
 
 function ScrollToTop() {
@@ -35,6 +36,7 @@ export function AppContent() {
           <Route path="/simulator" element={<SimulatorPage />} />
           <Route path="/comparison" element={<ComparisonPage />} />
           <Route path="/developers" element={<DevelopersPage />} />
+          <Route path="/whitepaper" element={<WhitepaperPage />} />
           <Route path="*" element={<HomePage />} />
         </Routes>
       </main>
